@@ -1,17 +1,14 @@
 {
-  "name": "unzip",
-  "version": "0.1.11.1",
+  "name": "ww-unzip",
+  "version": "0.1.12",
   "description": "unzip from EvanOxfeld/unzip support fileName encoding",
-  "author": "warmworm<three_rainbow@msn.com>",
+  "author": "warmworm <three_rainbow@msn.com>",
   "maintainers": [
-    {
-      "name": "warmworm",
-      "email": "three_rainbow@msn.com"
-    },
+    "warmworm <three_rainbow@msn.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RambleRainbow/node-unzip.git"
+    "url": "git+https://github.com/RambleRainbow/node-unzip.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -30,7 +27,7 @@
     "stream-buffers": ">= 0.2.5 < 1"
   },
   "directories": {
-    "example": "examples",
+    "lib": "lib",
     "test": "test"
   },
   "keywords": [
@@ -45,5 +42,9 @@
   "main": "unzip.js",
   "scripts": {
     "test": "tap ./test/*.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/RambleRainbow/node-unzip/issues"
+  },
+  "homepage": "https://github.com/RambleRainbow/node-unzip#readme"
 }
